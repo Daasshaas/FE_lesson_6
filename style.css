@@ -1,0 +1,21 @@
+:root{
+    --backgroundmain-color: #2F303A;
+    --backgroundteam-color: #F5F4FA;
+    --bacckgroundheader-color: #ECECEC;
+    --accent-color: #2196F3;
+    --texttitle-color: #212121;
+    --text-color: #757575;
+}
+
+.main{
+    background-color: var(--backgroundmain-color);
+}
+
+.footer{
+    background-color: var(--backgroundmain-color);
+}
+
+.header{
+    background-color: var(--bacckgroundheader-color);
+}
+
