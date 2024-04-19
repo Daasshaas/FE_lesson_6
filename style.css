@@ -1,45 +1,44 @@
-:root{
-    --backgroundmain-color: #2F303A;
-    --backgroundteam-color: #F5F4FA;
-    --bacckgroundheader-color: #ECECEC;
-    --accent-color: #2196F3;
-    --texttitle-color: #212121;
-    --text-color: #757575;
+:root {
+  --backgroundmain-color: #2f303a;
+  --backgroundteam-color: #f5f4fa;
+  --bacckgroundheader-color: #ececec;
+  --accent-color: #2196f3;
+  --texttitle-color: #212121;
+  --text-color: #757575;
 }
 
-.main{
-    background-color: var(--backgroundmain-color);
+.main {
+  background-color: var(--backgroundmain-color);
 }
 
-.footer{
-    background-color: var(--backgroundmain-color);
+.footer {
+  background-color: var(--backgroundmain-color);
 }
 
-.header{
-    background-color: var(--bacckgroundheader-color);
+.header {
+  background-color: var(--bacckgroundheader-color);
 }
 
 .roboto-regular {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .roboto-medium {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .roboto-bold {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .roboto-black {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-  
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
