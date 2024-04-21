@@ -106,3 +106,14 @@ body{
   font-size: 18px;
   line-height: 2;
 }
+
+.team-people-figcaption-job{
+  font-weight: 400;
+  font-size: 16;
+}
+
+.projects-figcaption-name{
+  font-weight: 400;
+  font-size: 16;
+  line-height: 1.87;
+}
