@@ -7,9 +7,6 @@
   --text-color: #757575;
 }
 
-.main {
-  background-color: var(--backgroundmain-color);
-}
 
 .footer {
   background-color: var(--backgroundmain-color);
@@ -20,25 +17,92 @@
 }
 
 .roboto-regular {
-  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 .roboto-medium {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-style: normal;
 }
 
 .roboto-bold {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-style: normal;
 }
 
 .roboto-black {
-  font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-style: normal;
+}
+
+body{
+  font-family: Roboto;
+}
+
+.services-headline{
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+}
+
+.services-button{
+  font-weight: 700;
+  font-size: 16;
+  line-height: 1.87;
+}
+
+.information-title{
+  font-weight: 700;
+  font-size: 14;
+}
+
+.information-description{
+  font-weight: 400;
+  font-size: 14;
+  line-height: 1.71;
+}
+
+.photo-work-title{
+  font-weight: 700;
+  font-size: 36;
+}
+
+.team-people-title{
+  font-weight: 700;
+  font-size: 36;
+}
+
+.team-people-figcaption{
+  font-weight: 500;
+  font-size: 16;
+}
+
+.footer-text{
+  font-weight: 400;
+  font-size: 14;
+  line-height: 1.71;
+}
+
+.footer-link{
+  font-weight: 400;
+  font-size: 14;
+  line-height: 1.71;
+}
+
+.header-link{
+  font-weight: 500;
+  font-size: 14;
+}
+
+.porfolio-button{
+  font-weight: 500;
+  font-size: 16;
+  line-height: 1.62;
+}
+
+.projects-figcaption{
+  font-weight: 700;
+  font-size: 18;
+  line-height: 2;
 }
