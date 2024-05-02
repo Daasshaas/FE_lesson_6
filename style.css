@@ -49,8 +49,7 @@ body{
   font-family: Roboto;
 }
 
-.services-headline, 
-.services-headline-1{
+.services-headline{
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -133,7 +132,7 @@ body{
 }
 
 .services-headline{
-margin: 200px 0;
+width: 50%;
 text-align: center;
 }
 
