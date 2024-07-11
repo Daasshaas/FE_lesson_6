@@ -5,6 +5,7 @@
   --accent-color: #2196f3;
   --texttitle-color: #212121;
   --text-color: #757575;
+  --accent1-color: #FFFFFF;
 }
 
 .container{
@@ -22,7 +23,15 @@
 }
 
 .header {
-  background-color: var(--bacckgroundheader-color);
+  background-color: var(--accent1-color);
+}
+
+.services{
+  background-color: var(--backgroundmain-color);
+}
+
+.team-people{
+  background-color: var(--backgroundteam-color);
 }
 
 .roboto-regular {
@@ -49,16 +58,75 @@ body{
   font-family: Roboto;
 }
 
+.header-list{
+  list-style: none;
+}
+
+.header-link-1{
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.header-link{
+  color: var(--texttitle-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.header-link .header-link-1, .header-link-2{
+  color: var(--texttitle-color);
+  text-decoration: none;
+  margin-right: 93px;
+}
+
+.header-link-1, .header-link-2:hover{
+  color: var(--texttitle-color);
+  text-decoration: none;
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.header-link:hover{
+  color: var(--texttitle-color);
+  text-decoration: none;
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+}
+
 .services-headline{
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  color: var(--accent1-color);
 }
 
 .services-button{
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
+  color: var(--accent1-color);
+  background-color: var(--accent-color);
+  border-style: solid;
+  border-color: var(--accent-color);
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-left: 32px;
+  padding-bottom: 10px;
+  padding-right: 32px;
+  cursor: pointer;
+}
+
+.information-list{
+  list-style: none;
 }
 
 .information-title{
@@ -70,6 +138,7 @@ body{
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  color: var(--text-color);
 }
 
 .photo-work-title{
@@ -91,15 +160,32 @@ body{
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  color: var(--accent1-color);
+}
+
+.footer-list{
+  list-style: none;
 }
 
 .footer-link{
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  color: rgb(225, 225, 225, 0.6);
+  text-decoration: none;
 }
 
-.header-link{
+.footer-link:hover{
+  color: var(--texttitle-color);
+  text-decoration: none;
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.header-link, .header-link-1, .header-link-2{
   font-weight: 500;
   font-size: 14px;
 }
@@ -119,6 +205,7 @@ body{
 .team-people-figcaption-job{
   font-weight: 400;
   font-size: 16px;
+  color: var(--text-color);
 }
 
 .projects-figcaption-name{
@@ -135,7 +222,6 @@ body{
 width: 50%;
 text-align: center;
 }
-
 
 .services-button{
   margin: 30px 0;
@@ -183,4 +269,38 @@ text-align: center;
   margin-top: 34px;
   margin-bottom: 30px;
   margin-right: 30px;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-list{
+  display: flex;
+}
+
+.header-list-1{
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+}
+
+.header-item{
+  margin-right: 50px;
+  width: 72px;
+}
+
+.header-item-1{
+  margin-right: 50px;
+  width: 45px;
+}
+
+.header-item-k{
+  margin-right: 344px;
+}
+
+.header-item-2{
+  margin-right: 50px;
 }
