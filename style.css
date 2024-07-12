@@ -75,6 +75,20 @@ body{
   font-size: 14px;
 }
 
+.header-link-11{
+  color: var(--texttitle-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.header-link-22{
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+}
+
 .header-link{
   color: var(--texttitle-color);
   text-decoration: none;
@@ -89,6 +103,16 @@ body{
 }
 
 .header-link-1:hover{
+  color: var(--texttitle-color);
+  text-decoration: none;
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.header-link-11:hover{
   color: var(--texttitle-color);
   text-decoration: none;
   color: var(--accent-color);
@@ -227,16 +251,38 @@ body{
   font-size: 14px;
 }
 
-.porfolio-button{
+.portfolio-button{
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  color: var(--texttitle-color);
+  background-color: var(--backgroundteam-color);
+  border: none;
+  border-radius: 4px;
+  padding: 6px 22px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.portfolio-button:hover{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: var(--accent1-color);
+  background-color: var(--accent-color);
+  border: none;
+  border-radius: 4px;
+  padding: 6px 22px;
+  cursor: pointer;
 }
 
 .projects-figcaption{
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  padding-top: 20px;
+  padding-bottom: 4px;
+  padding-left: 24px;
 }
 
 .team-people-figcaption-job{
@@ -250,6 +296,9 @@ body{
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
+  color: var(--text-color);
+  padding-left: 24px;
+  padding-bottom: 20px;
 }
 
 .header{
@@ -321,7 +370,10 @@ body{
 }
 
 .portfolio-container{
-  margin: 94px;
+  margin-top: 94px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
 }
 
 .projects-figure{
@@ -373,4 +425,18 @@ header{
 
 .footer-logo{
   padding-top: 60px;
+}
+
+.line-h-m{
+  background-color:var(--bacckgroundheader-color);
+  height: 1px;
+}
+
+.team-people-figure-bg-portfolio{
+  background-color: var(--accent1-color);
+  width: 370px;
+  height: 404px;
+  border-style: solid;
+  border-color: #eeeeee;
+  border-width: 1.5px;
 }
