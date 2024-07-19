@@ -16,7 +16,7 @@
 
 *{
   box-sizing: border-box;
-}
+}  
 
 .footer {
   background-color: var(--backgroundmain-color);
@@ -168,6 +168,9 @@ body{
 .information-list{
   list-style: none;
   display: flex;
+  padding: 0;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .information-title{
@@ -342,12 +345,10 @@ body{
 }
 
 .team-people-figure{
-  margin-top: 50px;
-  margin-bottom: 94px;
-  margin-right: 30px;
   width: 270px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .team-people-figcaption, 
@@ -377,9 +378,10 @@ body{
 }
 
 .projects-figure{
-  margin-top: 34px;
-  margin-bottom: 30px;
-  margin-right: 30px;
+  width: fit-content;
+  display: flex;
+  gap: 30px;
+  flex-basis: calc((100% - 60px) / 3);
 }
 
 header{
@@ -439,4 +441,16 @@ header{
   border-style: solid;
   border-color: #eeeeee;
   border-width: 1.5px;
+}
+
+.services .container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo-work-container{
+  display: flex;
+  justify-content:space-between;
 }
