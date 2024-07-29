@@ -38,6 +38,7 @@
 .team-people{
   background-color: var(--backgroundteam-color);
   display: flex;
+  padding-bottom: 94px;
 }
 
 .roboto-regular {
@@ -378,10 +379,9 @@ body{
 }
 
 .projects-figure{
-  width: fit-content;
   display: flex;
   gap: 30px;
-  flex-basis: calc((100% - 60px) / 3);
+  width: 370px;
 }
 
 header{
@@ -453,4 +453,19 @@ header{
 .photo-work-container{
   display: flex;
   justify-content:space-between;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+}
+
+.grid-container-portfolio{
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 434px 434px 434px;
+}
+
+.projects{
+  padding-bottom: 94px;
 }
