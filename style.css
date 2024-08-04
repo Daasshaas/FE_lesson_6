@@ -350,6 +350,7 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin: 0;
 }
 
 .team-people-figcaption, 
@@ -380,8 +381,8 @@ body{
 
 .projects-figure{
   display: flex;
-  gap: 30px;
   width: 370px;
+  margin: 0;
 }
 
 header{
@@ -461,9 +462,10 @@ header{
 }
 
 .grid-container-portfolio{
-  display: grid;
-  grid-template-columns: 400px 400px 400px;
-  grid-template-rows: 434px 434px 434px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .projects{
