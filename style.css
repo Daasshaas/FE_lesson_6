@@ -28,6 +28,7 @@
 
 .services{
   background-color: var(--backgroundmain-color);
+  background-image: url(img/bg.jpg);
   height: 600px;
   display: flex;
   justify-content: center;
@@ -278,6 +279,7 @@ body{
   border-radius: 4px;
   padding: 6px 22px;
   cursor: pointer;
+  box-shadow: 0px 4px 4px rgb(0, 0, 0, 25%);
 }
 
 .projects-figcaption{
@@ -351,6 +353,9 @@ body{
   flex-direction: row;
   justify-content: space-between;
   margin: 0;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 12%);
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 14%);
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 20%);
 }
 
 .team-people-figcaption, 
@@ -444,6 +449,17 @@ header{
   border-width: 1.5px;
 }
 
+.team-people-figure-bg-portfolio:hover{
+  background-color: var(--accent1-color);
+  width: 370px;
+  height: 404px;
+  border-style: solid;
+  border-color: #eeeeee;
+  border-width: 1.5px;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgb(0, 0, 0, 25%);
+}
+
 .services .container{
   display: flex;
   flex-direction: column;
@@ -473,7 +489,7 @@ header{
 }
 
 .information-item:nth-child(1)::before{
-  content: url(img/group1.png);
+  content: url(img/group.png);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -483,7 +499,7 @@ header{
 }
 
 .information-item:nth-child(2)::before{
-  content: url(img/clock\ 1.png);
+  content: url(img/clock.png);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -493,7 +509,7 @@ header{
 }
 
 .information-item:nth-child(3)::before{
-  content: url(img/diagram\ 1.png);
+  content: url(img/diagram.png);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -503,7 +519,7 @@ header{
 }
 
 .information-item:nth-child(4)::before{
-  content: url(img/astronaut\ 1.png);
+  content: url(img/astronaut.png);
   display: flex;
   justify-content: center;
   align-items: center;
