@@ -527,3 +527,113 @@ header{
   width: 270px;
   height: 120px;
 }
+
+.team-svg{
+  height: 20px;
+  width: 20px;
+  fill: #AFB1B8;
+}
+
+.social-icon-list{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.socail-team-link{
+  text-decoration: none;
+  padding: 10px;
+  height: 20px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.team-div{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.social-icon-item:hover{
+  fill: white;
+}
+
+.socail-team-link:hover{
+  background-color: #2196f3;
+  fill: white;
+}
+
+.clients-list{
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.clients-title{
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #212121;
+  margin-bottom: 50px;
+}
+
+.clients{
+  padding-top: 94px;
+  padding-bottom: 82px;
+}
+
+.clients-item-link{
+  display: flex;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  color: #AFB1B8;
+}
+
+.clients-svg{
+  height: 92px;
+  width: 170px;
+  fill: #AFB1B8;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 32px;
+  padding-left: 32px;
+}
+
+.clients-svg:hover{
+  border: 1px solid #2196f3;
+  fill: #2196f3;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer-center-title{
+  color: #FFFFFF;
+  margin-top: 0;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.footer-center{
+  margin-top: 72px;
+  margin-left: 70px;
+}
+
+.team-svg-footer{
+  height: 20px;
+  width: 20px;
+  fill: #AFB1B8;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 100px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.1);
+  padding: 12px;
+}
