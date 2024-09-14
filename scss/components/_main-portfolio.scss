@@ -1,0 +1,73 @@
+.portfolio-button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    color: var(--texttitle-color);
+    background-color: var(--backgroundteam-color);
+    border: none;
+    border-radius: 4px;
+    padding: 6px 22px;
+    cursor: pointer;
+    margin-right: 8px;
+  }
+  
+  .portfolio-button:hover{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    color: var(--accent1-color);
+    background-color: var(--accent-color);
+    border: none;
+    border-radius: 4px;
+    padding: 6px 22px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgb(0, 0, 0, 25%);
+  }
+  
+  .projects-figcaption{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    padding-top: 20px;
+    padding-bottom: 4px;
+    padding-left: 24px;
+  }
+  
+  .projects-figcaption-name{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--text-color);
+    padding-left: 24px;
+    padding-bottom: 20px;
+  }
+  
+.portfolio-container{
+    margin-top: 94px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .projects-figure{
+    display: flex;
+    width: 370px;
+    margin: 0;
+  }
+
+  .projects{
+    padding-bottom: 94px;
+  }
+
+  .grid-container-portfolio{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .line-h-m{
+    background-color:var(--bacckgroundheader-color);
+    height: 1px;
+  }
+  

@@ -1,0 +1,81 @@
+.footer {
+    background-color: var(--backgroundmain-color);
+  }
+  
+  .footer-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--accent1-color);
+    margin-bottom: 0;
+    margin-top: 20px;
+  }
+  
+  .footer-list{
+    list-style: none;
+  }
+  
+  .footer-link{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: rgb(225, 225, 225, 0.6);
+    text-decoration: none;
+  }
+  
+  .footer-link:hover{
+    color: var(--texttitle-color);
+    text-decoration: none;
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .footer-list{
+    padding-bottom: 60px;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+  
+  .footer-item{
+    padding-bottom: 9px;
+  }
+  
+  .footer-logo{
+    padding-top: 60px;
+  }
+
+  .footer-container{
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .footer-center-title{
+    color: #FFFFFF;
+    margin-top: 0;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-center{
+    margin-top: 72px;
+    margin-left: 70px;
+  }
+  
+  .team-svg-footer{
+    height: 20px;
+    width: 20px;
+    fill: #AFB1B8;
+  }
+  
+  .team-svg-footer:hover{
+    background-color: #2196f3;
+    fill: white;
+    padding: 10px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+  }
+  

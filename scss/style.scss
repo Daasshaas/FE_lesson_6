@@ -1,0 +1,117 @@
+:root {
+  --backgroundmain-color: #2f303a;
+  --backgroundteam-color: #f5f4fa;
+  --bacckgroundheader-color: #ececec;
+  --accent-color: #2196f3;
+  --texttitle-color: #212121;
+  --text-color: #757575;
+  --accent1-color: #FFFFFF;
+}
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+@import "components/header";
+@import "components/footer";
+@import "components/main-index";
+@import "components/main-portfolio";
+
+.roboto-regular {
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-weight: 900;
+  font-style: normal;
+}
+
+body{
+  font-family: Roboto;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+}
+
+/* Modal window */
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  transition: opacity 500ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
+}
+
+.backdrop.is-hidden {
+transform: scale(0.8);
+opacity: 0;
+    pointer-events: none;
+}
+.no-scroll {
+  overflow: hidden;
+}
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 400px;
+  min-height: 300px;
+  padding: 15px;
+  background-color: white;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  flex-direction: column;
+}
+.modal-title{
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-people-figure-wrap {
+  position: relative;
+  overflow: hidden;
+}
+
+.team-people-figure-list {
+  position: absolute;
+  left: 0;
+  bottom: -100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(180deg, rgba(245, 175, 25, 0.5803921569), rgba(241, 39, 17, 0.6549019608));
+  transition: bottom 250ms cubic-bezier(0.37, 1.65, 0.735, 0.61);
+}
+
+.team-people-figure-wrap:hover .team-people-figure-list{
+ bottom: 0;
+}
+
+.close{
+  border-radius: 50%;
+}

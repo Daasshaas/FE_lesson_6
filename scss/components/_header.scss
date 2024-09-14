@@ -1,0 +1,137 @@
+.header {
+    background-color: var(--accent1-color);
+  }
+
+  .header-list{
+    list-style: none;
+  }
+  
+  .header-link-1{
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  
+  .header-link-11{
+    color: var(--texttitle-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  
+  .header-link-22{
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  
+  .header-link{
+    color: var(--texttitle-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  
+  .header-link .header-link-1, .header-link-2{
+    color: var(--texttitle-color);
+    text-decoration: none;
+    margin-right: 93px;
+  }
+  
+  .header-link-1:hover{
+    color: var(--texttitle-color);
+    text-decoration: none;
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .header-link-11:hover{
+    color: var(--texttitle-color);
+    text-decoration: none;
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .header-link-2:hover{
+    color: var(--texttitle-color);
+    text-decoration: none;
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .header-link:hover{
+    color: var(--texttitle-color);
+    text-decoration: none;
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .header-link{
+    font-weight: 500;
+    font-size: 14px;
+  }
+  
+  .header-link-1{
+    font-weight: 500;
+    font-size: 14px;
+  }
+  
+  .header-link-2{
+    font-weight: 500;
+    font-size: 14px;
+  }
+  
+  .header{
+    padding: 32px 0;
+  }
+
+  .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .header-list{
+    display: flex;
+    padding: 0;
+  }
+  
+  .header-list-1{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+  }
+  
+  .header-item{
+    margin-right: 50px;
+    width: 72px;
+  }
+  
+  .header-item-1{
+    margin-right: 50px;
+    width: 45px;
+    margin-left: 93px;
+  }
+  
+  .header-item-k{
+    margin-right: 344px;
+  }
+  
+  .header-item-2{
+    margin-right: 50px;
+  }
+  
