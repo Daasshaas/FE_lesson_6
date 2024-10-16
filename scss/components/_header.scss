@@ -134,4 +134,16 @@
   .header-item-2{
     margin-right: 50px;
   }
+
+  .header-item-1::after{
+    content: '';
+    position: absolute;
+    width: 48px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--accent-color);
+    margin-top: 67.5px;
+    left: 555px;
+  }
+
   

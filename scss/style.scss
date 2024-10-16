@@ -19,6 +19,7 @@
 }
 
 @import "components/header";
+@import "components/header-portfolio";
 @import "components/footer";
 @import "components/main-index";
 @import "components/main-portfolio";
@@ -81,10 +82,14 @@ opacity: 0;
   padding: 15px;
   background-color: white;
   transform: translate(-50%, -50%);
-
   display: flex;
   flex-direction: column;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px 0px #00000033;
+  box-shadow: 0px 1px 1px 0px #00000024;
+  box-shadow: 0px 1px 3px 0px #0000001F;
 }
+
 .modal-title{
   display: flex;
   justify-content: space-between;
@@ -114,4 +119,54 @@ opacity: 0;
 
 .close{
   border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border-color: #FFFFFF;
+  border-style: solid;
+}
+
+.h2-modal-title{
+  font-family: roboto;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23.44px;
+  display: flex;
+  text-align: center;
+  padding: 40px;
+}
+
+.button-modal-list{
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: #2196f3;
+  color: white;
+  border-color: #2196f3;
+  border-style: solid;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+}
+
+.checkbox-label a{
+  color: #2196f3;
+}
+
+.checkbox-label{
+  color: #757575;
+}
+
+.form-modal{
+  color: #757575;
+}
+
+.div-modal-icon-input{
+  color: #757575;
+}
+
+.svg-modal-icon{
+  width: 18px;
+  height: 18px;
 }
