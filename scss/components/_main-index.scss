@@ -171,6 +171,7 @@
 
   .team-people-figure-bg{
     background-color: var(--accent1-color);
+    border-radius: 4px;
   }
 
   .team-people{
@@ -333,5 +334,11 @@
   .socail-team-link:hover{
     background-color: #2196f3;
     fill: white;
+  }
+
+  .socail-icon-item{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    margin-right: 10px;
   }
   

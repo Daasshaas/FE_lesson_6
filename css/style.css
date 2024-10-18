@@ -184,6 +184,25 @@
   height: 20px;
 }
 
+.input-modal {
+  width: 448px;
+  height: 40px;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: rgba(33, 33, 33, 0.2);
+  border-width: 1px;
+}
+
+.div-modal-icon-input {
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 4px;
+}
+
+.title-input {
+  margin-left: 25px;
+}
+
 .header-item::after {
   content: "";
   position: absolute;
@@ -274,6 +293,56 @@
   height: 40px;
   display: inline-block;
   border-radius: 50%;
+}
+
+.footer-list-email {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer-list-email-title {
+  color: #FFFFFF;
+  font-size: 14px;
+  margin-top: 0px;
+}
+
+.footer-list-email-button {
+  color: #FFFFFF;
+  background-color: #2196f3;
+  padding-left: 28px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 28px;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: #2196f3;
+  margin-left: 12px;
+}
+
+.input-email-footer {
+  border: none;
+  background-color: #2F303A;
+}
+
+.footer-right {
+  margin-top: 72px;
+  margin-left: 93px;
+}
+
+.footer-list-email-item {
+  display: flex;
+}
+
+.input-email-footer {
+  text-align: start;
+  padding-left: 16px;
+  border-color: rgba(255, 255, 255, 0.6);
+  border-style: solid;
+  border-radius: 4px;
+  background-color: #2F303A;
+  width: 358px;
+  height: 50px;
 }
 
 .services {
@@ -449,6 +518,7 @@
 
 .team-people-figure-bg {
   background-color: var(--accent1-color);
+  border-radius: 4px;
 }
 
 .team-people {
@@ -611,6 +681,12 @@
 .socail-team-link:hover {
   background-color: #2196f3;
   fill: white;
+}
+
+.socail-icon-item {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  margin-right: 10px;
 }
 
 .portfolio-button {

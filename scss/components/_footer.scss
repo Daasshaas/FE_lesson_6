@@ -79,3 +79,52 @@
     border-radius: 50%;
   }
   
+  .footer-list-email{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .footer-list-email-title{
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-top: 0px;
+  }
+
+  .footer-list-email-button{
+    color: #FFFFFF;
+    background-color: #2196f3;
+    padding-left: 28px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 28px;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: #2196f3;
+    margin-left: 12px;
+  }
+  
+  .input-email-footer{
+    border: none;
+    background-color: #2F303A;
+  }
+
+  .footer-right{
+    margin-top: 72px;
+    margin-left: 93px;
+  }
+
+  .footer-list-email-item{
+    display: flex;
+  }
+
+  .input-email-footer{
+    text-align: start;
+    padding-left: 16px;
+    border-color: rgba(255, 255, 255, 0.6);
+    border-style: solid;
+    border-radius: 4px;
+    background-color: #2F303A;
+    width: 358px;
+    height: 50px;
+  }
