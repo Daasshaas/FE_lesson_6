@@ -2,21 +2,22 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    color: var(--texttitle-color);
-    background-color: var(--backgroundteam-color);
+    color: $texttitle-color;
+    background-color: $backgroundteam-color;
     border: none;
     border-radius: 4px;
     padding: 6px 22px;
     cursor: pointer;
     margin-right: 8px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
   .portfolio-button:hover{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    color: var(--accent1-color);
-    background-color: var(--accent-color);
+    color: $accent1-color;
+    background-color: $accent-color;
     border: none;
     border-radius: 4px;
     padding: 6px 22px;
@@ -37,7 +38,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
-    color: var(--text-color);
+    color: $text-color;
     padding-left: 24px;
     padding-bottom: 20px;
   }
@@ -67,7 +68,7 @@
   }
   
   .line-h-m{
-    background-color:var(--bacckgroundheader-color);
+    background-color: $bacckgroundheader-color;
     height: 1px;
   }
 

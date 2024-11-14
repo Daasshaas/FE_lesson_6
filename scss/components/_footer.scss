@@ -1,12 +1,12 @@
 .footer {
-    background-color: var(--backgroundmain-color);
+    background-color: $backgroundmain-color;
   }
   
   .footer-text{
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    color: var(--accent1-color);
+    color: $accent1-color;
     margin-bottom: 0;
     margin-top: 20px;
   }
@@ -24,9 +24,9 @@
   }
   
   .footer-link:hover{
-    color: var(--texttitle-color);
+    color: $texttitle-color;
     text-decoration: none;
-    color: var(--accent-color);
+    color: $accent-color;
     text-decoration: none;
     font-weight: 400;
     font-size: 14px;

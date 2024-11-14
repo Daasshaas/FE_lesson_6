@@ -1,5 +1,5 @@
 .header {
-    background-color: var(--accent1-color);
+    background-color: $accent1-color;
   }
 
   .header-list{
@@ -7,43 +7,43 @@
   }
   
   .header-link-1{
-    color: var(--accent-color);
+    color: $accent-color;
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
   }
   
   .header-link-11{
-    color: var(--texttitle-color);
+    color: $texttitle-color;
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
   }
   
   .header-link-22{
-    color: var(--accent-color);
+    color: $accent-color;
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
   }
   
   .header-link{
-    color: var(--texttitle-color);
+    color: $texttitle-color;
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
   }
   
   .header-link .header-link-1, .header-link-2{
-    color: var(--texttitle-color);
+    color: $texttitle-color;
     text-decoration: none;
     margin-right: 93px;
   }
   
   .header-link-1:hover{
-    color: var(--texttitle-color);
+    color: $texttitle-color;
     text-decoration: none;
-    color: var(--accent-color);
+    color: $accent-color;
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -51,9 +51,9 @@
   }
   
   .header-link-11:hover{
-    color: var(--texttitle-color);
+    color: $texttitle-color;
     text-decoration: none;
-    color: var(--accent-color);
+    color: $accent-color;
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -61,9 +61,9 @@
   }
   
   .header-link-2:hover{
-    color: var(--texttitle-color);
+    color: $texttitle-color;
     text-decoration: none;
-    color: var(--accent-color);
+    color: $accent-color;
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -71,9 +71,9 @@
   }
   
   .header-link:hover{
-    color: var(--texttitle-color);
+    color: $texttitle-color;
     text-decoration: none;
-    color: var(--accent-color);
+    color: $accent-color;
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -141,7 +141,7 @@
     width: 48px;
     height: 4px;
     border-radius: 2px;
-    background-color: var(--accent-color);
+    background-color: $accent-color;
     margin-top: 67.5px;
     left: 555px;
   }

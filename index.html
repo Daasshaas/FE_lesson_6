@@ -24,8 +24,16 @@
           <li class="header-item"><a href="portfolio.html" class="header-link-2">Портфоліо</a></li>
           <li class="header-item-k"><a href="#" class="header-link">Контакти</a></li>
 
-          <li class="header-item-2"><div class="div-icon"><svg class="icon icon-envelope"><use href="./img/symbol-defs.svg#icon-envelope" class="icon-email"></use></svg></div><a href="mail:info@devstudio.com" class="header-link">info@devstudio.com</a></li>
-          <li class="header-item-3"><div class="div-icon"><svg class="icon icon-smartphone"><use href="./img/symbol-defs.svg#icon-smartphone" class="icon-phone-1"></use></svg></div><a href="tel:+380961111111" class="header-link">+38 096 111 11 11</a></li>
+          <li class="header-item-2">
+            <div class="div-icon"><svg class="icon icon-envelope">
+                <use href="./img/symbol-defs.svg#icon-envelope" class="icon-email"></use>
+              </svg></div><a href="mail:info@devstudio.com" class="header-link">info@devstudio.com</a>
+          </li>
+          <li class="header-item-3">
+            <div class="div-icon"><svg class="icon icon-smartphone">
+                <use href="./img/symbol-defs.svg#icon-smartphone" class="icon-phone-1"></use>
+              </svg></div><a href="tel:+380961111111" class="header-link">+38 096 111 11 11</a>
+          </li>
         </ul>
       </nav>
     </div>
@@ -37,38 +45,37 @@
         <button class="services-button" data-modal-open>Замовити послугу</button>
         <div class="backdrop is-hidden" data-modal>
           <div class="modal">
-            <div class="modal-container">
+            <form class="modal-container">
               <button class="close" data-modal-close>×</button>
               <h2 class="h2-modal-title">Залиште свої дані, ми вам передзвонимо</h2>
-              <form class="form-modal"><label for="name" class="title-input">Ім'я</label>
-                <div class="div-modal-icon-input"> <input type="text" id="name" name="name" required="" class="input-modal">
-                </div>
-                <div class="div-modal-icon-svg"><svg class="svg-modal-icon">
-                    <use href="./img/symbol-defs.svg#icon-person-black-18dp-1"></use>
-                </svg></div>
-                <label for="phone">
-                  <form class="form-modal"><label for="name" class="title-input">Телефон</label>
-                  <div class="div-modal-icon-input"><input type="tel" id="phone" name="phone" required="" class="input-modal"></div>
-                  <div class="div-modal-icon-svg"><svg class="svg-modal-icon">
-                    <use href="./img/symbol-defs.svg#icon-phone-black-18dp-1"></use>
-                </svg></div>
-                <label for="email"></label>
-                <form class="form-modal"><label for="name" class="title-input">Пошта</label>
-                <div class="div-modal-icon-input"> <input type="email" id="email" name="email" required="" class="input-modal"></div>
-                <div class="div-modal-icon-svg"><svg class="svg-modal-icon">
+              <label for="name" class="title-input">Ім'я</label>
+              <div class="div-modal-icon-input"> <svg class="svg-modal-icon">
+                  <use href="./img/symbol-defs.svg#icon-person-black-18dp-1"></use>
+                </svg> <input type="text" id="name" name="name" required="" class="input-modal">
+              </div>
+
+              <label for="phone" class="title-input">Телефон</label>
+              <div class="div-modal-icon-input"><svg class="svg-modal-icon">
+                  <use href="./img/symbol-defs.svg#icon-phone-black-18dp-1"></use>
+                </svg><input type="tel" id="phone" name="phone" required="" class="input-modal"></div>
+              <label for="email" class="title-input">Пошта</label>
+              <div class="div-modal-icon-input"> <svg class="svg-modal-icon">
                   <use href="./img/symbol-defs.svg#icon-email-black-18dp-1"></use>
-              </svg></div>
-              <label for="message" class="title-input">Коментар</label>
-              <textarea id="message" name="message" rows="4" required="" placeholder="Введіть текст" class="textarea-modal"></textarea>
+                </svg><input type="email" id="email" name="email" required="" class="input-modal"></div>
+
+              <label for="message" class="title-input">Коментар</label><br>
+              <textarea id="message" name="message" rows="4" required="" placeholder="Введіть текст"
+                class="textarea-modal"></textarea>
               <div class="checkbox-label"><input type="checkbox" id="agreement" name="agreement" required="">
                 <label for="agreement">Погоджуюся з розсилкою та приймаю <a href="#">Умови
-                  договору</a></label></div>
-                  <button class="button-modal-list" type="submit">Відправити</button>
-                </label>
-              </form>
-            </div>
+                    договору</a></label>
+              </div>
+              <button class="button-modal-list" type="submit">Відправити</button>
+              </label>
+            </form>
           </div>
         </div>
+      </div>
       </div>
     </section>
     <section class="information">
@@ -686,9 +693,12 @@
               </li>
               <li class="footer-list-email-item">
                 <form class="form-email"><label for="name"></label>
-                  <div class="div-icon-input"> <input type="email" id="email" name="email" required="" class="input-email-footer" placeholder="E-mail"></div>
+                  <div class="div-icon-input"> <input type="email" id="email" name="email" required=""
+                      class="input-email-footer" placeholder="E-mail"></div>
                 </form>
-                <button class="footer-list-email-button">Підписатися <svg class="icon icon-send"><use xlink:href="#icon-send"></use></svg></button>
+                <button class="footer-list-email-button">Підписатися <svg class="icon icon-send">
+                    <use xlink:href="#icon-send"></use>
+                  </svg></button>
               </li>
             </ul>
           </article>
