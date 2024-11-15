@@ -75,6 +75,7 @@
   .team-people-figure-wrap {
     position: relative;
     overflow: hidden;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
   .team-people-figure-list {
@@ -88,7 +89,7 @@
     align-items: center;
     color: #FFFFFF;
     background-image: rgba(33, 150, 243, 0.9);
-    transition: bottom 250ms cubic-bezier(0.37, 1.65, 0.735, 0.61);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
   }
 
   .team-people-figure-desc{

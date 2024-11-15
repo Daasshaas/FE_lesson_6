@@ -151,6 +151,7 @@
     border-style: solid;
     border-color: #eeeeee;
     border-width: 1.5px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
   .team-people-figure-bg-portfolio:hover{
@@ -218,14 +219,13 @@
     padding-bottom: 16px;
     padding-right: 32px;
     padding-left: 32px;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
   .clients-svg:hover{
     border: 1px solid #2196f3;
     fill: #2196f3;
   }
-  
   
   .photo-work-img{
     width: 100%;
@@ -297,7 +297,7 @@
     height: 20px;
     width: 20px;
     fill: #AFB1B8;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
   .social-icon-list{
@@ -313,8 +313,7 @@
     height: 40px;
     display: inline-block;
     border-radius: 50%;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);  }
   
   .socail-team-link:hover .team-svg{
     fill: white;
