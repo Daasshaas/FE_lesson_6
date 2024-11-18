@@ -133,7 +133,7 @@ opacity: 0;
   line-height: 23.44px;
   display: flex;
   text-align: center;
-  padding: 40px;
+  padding: 0 25px;
 }
 
 .button-modal-list{
@@ -149,6 +149,8 @@ opacity: 0;
   font-weight: 700;
   line-height: 30px;
   text-align: center;
+  margin-left: 149px;
+  margin-bottom: 25px;
 }
 
 .checkbox-label a{
@@ -157,6 +159,9 @@ opacity: 0;
 
 .checkbox-label{
   color: #757575;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 .form-modal{
@@ -178,4 +183,6 @@ opacity: 0;
 
 .textarea-modal{
   width: 100%;
+  margin-left: 25px;
+  margin-top: 4px;
 }
