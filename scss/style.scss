@@ -10,6 +10,8 @@
   box-sizing: border-box;
 }
 
+@import "scss/untils/placeholders";
+@import "scss/untils/mixins";
 @import "scss/untils/variables";
 @import "components/header";
 @import "components/header-portfolio";
