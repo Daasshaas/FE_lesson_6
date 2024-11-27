@@ -1,0 +1,23 @@
+%link{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+%flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+%transition{
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+%text{
+    text-align: center;
+}
+
+%photos{
+    width: 270px;
+    height: 120px;
+}

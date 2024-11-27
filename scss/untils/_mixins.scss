@@ -1,0 +1,23 @@
+@mixin button($button-color, $button-background-color, $button-border-style, $button-padding, $button-border-radius, $button-cursor){
+    color: $button-color;
+    background-color: $button-background-color;
+    border-style: $button-border-style;
+    border-radius: $button-border-radius;
+    padding: $button-padding;
+    cursor: $button-cursor;
+}
+
+@mixin svg($svg-height, $svg-width){
+    height: $svg-height;
+    width: $svg-width;
+}
+
+@mixin text($text-font-family, $text-font-weight, $text-font-size, $text-line-height, $text-color, $text-text-decoration){
+    font-family: $text-font-family;
+    font-weight: $text-font-weight;
+    font-size: $text-font-size;
+    line-height: $text-line-height;
+    color: $text-color;
+    text-decoration: $text-text-decoration;
+}
+
