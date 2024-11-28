@@ -1,9 +1,22 @@
 
 
 .container{
+  min-width: 320px;
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.container.adaptive{
+  max-width: 480px;
+}
+
+.container.adaptive{
+  max-width: 768px;
+}
+
+.container.adaptive{
+  max-width: 1200px;
 }
 
 *{
