@@ -1,15 +1,53 @@
 .container {
+  min-width: 320px;
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.container.adaptive {
+  max-width: 480px;
+}
+
+.container.adaptive {
+  max-width: 768px;
+}
+
+.container.adaptive {
+  max-width: 1200px;
 }
 
 * {
   box-sizing: border-box;
 }
 
+/* Large: 992px - 1199px */
+@media (max-width: 1199px) {
+  .container {
+    width: 960px;
+  }
+}
+/* Medium: 768px - 991px */
+@media (max-width: 991px) {
+  .container {
+    width: 720px;
+  }
+}
+/* Small: 576px - 767px */
+@media (max-width: 767px) {
+  .container {
+    width: 540px;
+  }
+}
+/* Extra small: 0px (320px) - 575px */
+@media (max-width: 575px) {
+  .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+}
 .header {
-  background-color: var(--accent1-color);
+  background-color: #FFFFFF;
 }
 
 .header-list {
@@ -17,43 +55,47 @@
 }
 
 .header-link-1 {
-  color: var(--accent-color);
+  color: #2196f3;
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link-11 {
-  color: var(--texttitle-color);
+  color: #212121;
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link-22 {
-  color: var(--accent-color);
+  color: #2196f3;
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link {
-  color: var(--texttitle-color);
+  color: #212121;
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link .header-link-1, .header-link-2 {
-  color: var(--texttitle-color);
+  color: #212121;
   text-decoration: none;
   margin-right: 93px;
 }
 
 .header-link-1:hover {
-  color: var(--texttitle-color);
+  color: #212121;
   text-decoration: none;
-  color: var(--accent-color);
+  color: #2196f3;
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -61,9 +103,9 @@
 }
 
 .header-link-11:hover {
-  color: var(--texttitle-color);
+  color: #212121;
   text-decoration: none;
-  color: var(--accent-color);
+  color: #2196f3;
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -71,9 +113,9 @@
 }
 
 .header-link-2:hover {
-  color: var(--texttitle-color);
+  color: #212121;
   text-decoration: none;
-  color: var(--accent-color);
+  color: #2196f3;
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -81,9 +123,9 @@
 }
 
 .header-link:hover {
-  color: var(--texttitle-color);
+  color: #212121;
   text-decoration: none;
-  color: var(--accent-color);
+  color: #2196f3;
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -151,7 +193,7 @@
   width: 48px;
   height: 4px;
   border-radius: 2px;
-  background-color: var(--accent-color);
+  background-color: #2196f3;
   margin-top: 67.5px;
   left: 555px;
 }
@@ -181,7 +223,7 @@
   border-style: solid;
   border-color: rgba(33, 33, 33, 0.2);
   border-width: 1px;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .input-modal:hover {
@@ -193,6 +235,7 @@
   margin-left: 25px;
   margin-right: 25px;
   margin-top: 4px;
+  margin-bottom: 10px;
 }
 
 .title-input {
@@ -205,20 +248,20 @@
   width: 78px;
   height: 4px;
   border-radius: 2px;
-  background-color: var(--accent-color);
+  background-color: #2196f3;
   margin-top: 49px;
   left: 648px;
 }
 
 .footer {
-  background-color: var(--backgroundmain-color);
+  background-color: #2f303a;
 }
 
 .footer-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  color: var(--accent1-color);
+  color: #FFFFFF;
   margin-bottom: 0;
   margin-top: 20px;
 }
@@ -233,12 +276,13 @@
   line-height: 1.71;
   color: rgba(225, 225, 225, 0.6);
   text-decoration: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-link:hover {
-  color: var(--texttitle-color);
+  color: #212121;
   text-decoration: none;
-  color: var(--accent-color);
+  color: #2196f3;
   text-decoration: none;
   font-weight: 400;
   font-size: 14px;
@@ -280,6 +324,7 @@
   height: 20px;
   width: 20px;
   fill: #AFB1B8;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-svg-footer:hover {
@@ -342,7 +387,7 @@
 }
 
 .services {
-  background-color: var(--backgroundmain-color);
+  background-color: #2f303a;
   background-image: url(img/bg.jpg);
   height: 600px;
   display: flex;
@@ -355,17 +400,17 @@
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  color: var(--accent1-color);
+  color: #FFFFFF;
 }
 
 .services-button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  color: var(--accent1-color);
-  background-color: var(--accent-color);
+  color: #FFFFFF;
+  background-color: #2196f3;
   border-style: solid;
-  border-color: var(--accent-color);
+  border-color: #2196f3;
   border-radius: 4px;
   padding-top: 10px;
   padding-left: 32px;
@@ -410,7 +455,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  color: var(--text-color);
+  color: #757575;
   margin-top: 10px;
   align-items: flex-start;
 }
@@ -438,7 +483,7 @@
 .team-people-figcaption-job {
   font-weight: 400;
   font-size: 16px;
-  color: var(--text-color);
+  color: #757575;
   padding-top: 10px;
 }
 
@@ -488,16 +533,17 @@
 }
 
 .team-people-figure-bg-portfolio {
-  background-color: var(--accent1-color);
+  background-color: #FFFFFF;
   width: 370px;
   height: 404px;
   border-style: solid;
   border-color: #eeeeee;
   border-width: 1.5px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-people-figure-bg-portfolio:hover {
-  background-color: var(--accent1-color);
+  background-color: #FFFFFF;
   width: 370px;
   height: 404px;
   border-style: solid;
@@ -513,12 +559,12 @@
 }
 
 .team-people-figure-bg {
-  background-color: var(--accent1-color);
+  background-color: #FFFFFF;
   border-radius: 4px;
 }
 
 .team-people {
-  background-color: var(--backgroundteam-color);
+  background-color: #f5f4fa;
   display: flex;
   padding-bottom: 94px;
 }
@@ -561,7 +607,7 @@
   padding-bottom: 16px;
   padding-right: 32px;
   padding-left: 32px;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-svg:hover {
@@ -597,41 +643,41 @@
 }
 
 .information-item:nth-child(1)::before {
-  content: url(img/group.png);
+  content: url(../img/group.png);
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--backgroundteam-color);
+  background-color: #f5f4fa;
   width: 270px;
   height: 120px;
 }
 
 .information-item:nth-child(2)::before {
-  content: url(img/clock.png);
+  content: url(../img/clock.png);
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--backgroundteam-color);
+  background-color: #f5f4fa;
   width: 270px;
   height: 120px;
 }
 
 .information-item:nth-child(3)::before {
-  content: url(img/diagram.png);
+  content: url(../img/diagram.png);
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--backgroundteam-color);
+  background-color: #f5f4fa;
   width: 270px;
   height: 120px;
 }
 
 .information-item:nth-child(4)::before {
-  content: url(img/astronaut.png);
+  content: url(../img/astronaut.png);
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--backgroundteam-color);
+  background-color: #f5f4fa;
   width: 270px;
   height: 120px;
 }
@@ -640,7 +686,7 @@
   height: 20px;
   width: 20px;
   fill: #AFB1B8;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icon-list {
@@ -656,7 +702,7 @@
   height: 40px;
   display: inline-block;
   border-radius: 50%;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .socail-team-link:hover .team-svg {
@@ -689,8 +735,8 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  color: var(--texttitle-color);
-  background-color: var(--backgroundteam-color);
+  color: #212121;
+  background-color: #f5f4fa;
   border: none;
   border-radius: 4px;
   padding: 6px 22px;
@@ -703,8 +749,8 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  color: var(--accent1-color);
-  background-color: var(--accent-color);
+  color: #FFFFFF;
+  background-color: #2196f3;
   border: none;
   border-radius: 4px;
   padding: 6px 22px;
@@ -725,7 +771,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
-  color: var(--text-color);
+  color: #757575;
   padding-left: 24px;
   padding-bottom: 20px;
 }
@@ -755,13 +801,14 @@
 }
 
 .line-h-m {
-  background-color: var(--bacckgroundheader-color);
+  background-color: #ececec;
   height: 1px;
 }
 
 .team-people-figure-wrap {
   position: relative;
   overflow: hidden;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-people-figure-list {
@@ -775,7 +822,7 @@
   align-items: center;
   color: #FFFFFF;
   background-image: rgba(33, 150, 243, 0.9);
-  transition: bottom 250ms cubic-bezier(0.37, 1.65, 0.735, 0.61);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-people-figure-desc {
@@ -793,6 +840,80 @@
   bottom: 0;
 }
 
+input[type=checkbox],
+label {
+  display: none;
+}
+
+/* mobile menu */
+@media (max-width: 768px) {
+  nav {
+    order: 1;
+  }
+  label {
+    display: block;
+    height: 30px;
+    width: 30px;
+    margin-left: auto;
+    position: relative;
+  }
+  label:hover {
+    cursor: pointer;
+  }
+  label span {
+    top: 15px;
+  }
+  label span,
+  label span::before,
+  label span::after {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 2px;
+    background: #333;
+    position: absolute;
+    right: 0;
+    transition: 0.3s;
+    z-index: 10;
+  }
+  label span::before {
+    top: -8px;
+  }
+  label span::after {
+    top: 8px;
+  }
+  .nav_menu {
+    display: none;
+  }
+  input[type=checkbox]:checked ~ .nav_menu {
+    display: flex;
+    flex-direction: column;
+  }
+  input[type=checkbox]:checked ~ label span {
+    transform: rotate(-45deg);
+  }
+  input[type=checkbox]:checked ~ label span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  input[type=checkbox]:checked ~ label span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  .nav_menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 12px 8px #ececec;
+    margin: 0;
+  }
+  .nav_menu li {
+    margin: 15px 0;
+  }
+}
 .roboto-regular {
   font-weight: 400;
   font-style: normal;
@@ -911,7 +1032,7 @@ body {
   line-height: 23.44px;
   display: flex;
   text-align: center;
-  padding: 40px;
+  padding: 0 25px;
 }
 
 .button-modal-list {
@@ -927,6 +1048,8 @@ body {
   font-weight: 700;
   line-height: 30px;
   text-align: center;
+  margin-left: 149px;
+  margin-bottom: 25px;
 }
 
 .checkbox-label a {
@@ -935,6 +1058,9 @@ body {
 
 .checkbox-label {
   color: #757575;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 .form-modal {
@@ -956,4 +1082,6 @@ body {
 
 .textarea-modal {
   width: 100%;
+  margin-left: 25px;
+  margin-top: 4px;
 }

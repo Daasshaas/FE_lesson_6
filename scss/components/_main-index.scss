@@ -254,7 +254,7 @@
   }
 
   .information-item:nth-child(1)::before{
-    content: url(img/group.png);
+    content: url(../img/group.png);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -264,7 +264,7 @@
   }
   
   .information-item:nth-child(2)::before{
-    content: url(img/clock.png);
+    content: url(../img/clock.png);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -274,7 +274,7 @@
   }
   
   .information-item:nth-child(3)::before{
-    content: url(img/diagram.png);
+    content: url(../img/diagram.png);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -284,7 +284,7 @@
   }
   
   .information-item:nth-child(4)::before{
-    content: url(img/astronaut.png);
+    content: url(../img/astronaut.png);
     display: flex;
     justify-content: center;
     align-items: center;

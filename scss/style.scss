@@ -23,14 +23,118 @@
   box-sizing: border-box;
 }
 
-@import "scss/untils/placeholders";
-@import "scss/untils/mixins";
-@import "scss/untils/variables";
+/* Large: 992px - 1199px */
+@media (max-width: 1199px) {
+  .container {
+    width: 960px;
+  }
+}
+
+/* Medium: 768px - 991px */
+@media (max-width: 991px) {
+  .container {
+    width: 720px;
+  }
+}
+
+/* Small: 576px - 767px */
+@media (max-width: 767px) {
+  .container {
+    width: 540px;
+  }
+}
+
+/* Extra small: 0px (320px) - 575px */
+@media (max-width: 575px) {
+  .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+}
+
+@import "untils/placeholders";
+@import "untils/mixins";
+@import "untils/variables";
 @import "components/header";
 @import "components/header-portfolio";
 @import "components/footer";
 @import "components/main-index";
 @import "components/main-portfolio";
+
+input[type="checkbox"],
+label {
+  display: none;
+}
+
+/* mobile menu */
+@media (max-width: 768px) {
+  nav {
+    order: 1;
+  }
+  label {
+    display: block;
+    height: 30px;
+    width: 30px;
+    margin-left: auto;
+    position: relative;
+  }
+  label:hover {
+    cursor: pointer;
+  }
+  label span {
+    top: 15px;
+  }
+  label span,
+  label span::before,
+  label span::after {
+    content: '';
+    display: block;
+    width: 25px;
+    height: 2px;
+    background: #333;
+    position: absolute;
+    right: 0;
+    transition: .3s;
+    z-index: 10;
+  }
+  label span::before {
+    top: -8px;
+  }
+  label span::after {
+    top: 8px;
+  }
+  .nav_menu {
+    display: none;
+  }
+  input[type="checkbox"]:checked ~ .nav_menu{
+    display: flex;
+    flex-direction: column;
+  }
+  input[type="checkbox"]:checked ~ label span {
+    transform: rotate(-45deg);
+  }
+  input[type="checkbox"]:checked ~ label span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  input[type="checkbox"]:checked ~ label span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  .nav_menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 12px 8px #ececec;
+    margin: 0;
+  }
+  .nav_menu li {
+    margin: 15px 0;
+  }
+}
 
 .roboto-regular {
   font-weight: 400;
