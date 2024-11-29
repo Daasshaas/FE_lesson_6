@@ -52,6 +52,28 @@
   }
 }
 
+@media (max-width: 575px), (min-width: 320px){
+  .information-list{
+    flex-wrap: wrap;
+ }
+ .information-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .photo-work{
+  display: none
+ }
+ .team-people-title{
+  display: flex
+ }
+ .grid-container{
+  flex-wrap: wrap;
+  display: flex;
+  margin-bottom: 30px;
+ }
+}
+
 @import "untils/placeholders";
 @import "untils/mixins";
 @import "untils/variables";
